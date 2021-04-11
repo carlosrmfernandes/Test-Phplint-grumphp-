@@ -11,7 +11,6 @@ use App\Service\V1\User\UserServiceUpdate;
 
 class UserController extends Controller
 {
-
     protected $userServiceRegistration;
     protected $userServiceUpdate;
     protected $userServiceShow;
@@ -25,7 +24,7 @@ class UserController extends Controller
     ) {
         $this->userServiceShow = $userServiceShow;
         $this->userServiceUpdate = $userServiceUpdate;
-        $this->userServiceRegistration = $userServiceRegistration;
+        $this->userServiceRegistration = $userServiceRegistration
     }
 
     /**
