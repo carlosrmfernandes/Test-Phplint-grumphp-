@@ -24,7 +24,7 @@ class UserController extends Controller
     ) {
         $this->userServiceShow = $userServiceShow;
         $this->userServiceUpdate = $userServiceUpdate;
-        $this->userServiceRegistration = $userServiceRegistration
+        $this->userServiceRegistration = $userServiceRegistration;
     }
 
     /**
