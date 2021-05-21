@@ -39,5 +39,5 @@ Route::group(['middleware' => ['apiJwt', 'checkUserType'], 'prefix' => 'auth',],
 Route::group(['prefix' => ''], function ($router) {
     Route::post('register-user', 'V1\\UserController@store');
     Route::post('login', 'V1\\AuthController@login');
-    Route::get('example-weather/{id}', 'V1\\ExampleWeatherCotroller@show');
+    Route::get('example-weather/{id}', 'V1\\ExampleWeatherController@show');
 });

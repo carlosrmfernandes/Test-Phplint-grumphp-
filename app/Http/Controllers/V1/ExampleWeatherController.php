@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Components\ExampleWeatherIntegration\Client as ClientAuthorization;
 
-class ExampleWeatherCotroller extends Controller
+class ExampleWeatherController extends Controller
 {
     public function __construct()
     {

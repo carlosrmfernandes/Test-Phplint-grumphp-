@@ -62,7 +62,7 @@ Redis
 ## Pré-requisitos
 
 ```php
-Criar um diretório na are trabalho chamado Hope
+Criar um diretório na área de trabalho chamado Hope
 Clonar o projecto dentro desse diretório
 ```
 
@@ -105,7 +105,7 @@ DB_USERNAME=postgres
 DB_PASSWORD=root
 ```
 
-Acessar o container onde esta à aplicacão e dentro do diretório do projecto executar os seguinte comando
+Acessar o container onde esta à aplicação e dentro do diretório do projecto executar os seguinte comando
 
 ```php
 php artisan config:clear
@@ -121,7 +121,7 @@ php artisan migrate
 
 ## Execução das queue 
 
-Acessar o container onde esta à aplicacão e dentro do diretório do projecto executar os seguinte comando
+Acessar o container onde esta à aplicação e dentro do diretório do projecto executar os seguinte comando
 
 Execute o seguinte comando 
 
@@ -132,7 +132,7 @@ php artisan queue:work
 
 ## Teste Unintário  
 
-Acessar o container onde esta à aplicacão e dentro do diretório do projecto execute o seguinte comando para executar os testes
+Acessar o container onde esta à aplicação e dentro do diretório do projecto execute o seguinte comando para executar os testes
 
 ```php
 vendor/bin/phpunit
